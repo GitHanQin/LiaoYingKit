@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiaoYingKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "the company LYKit"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ A basic framework of OC iOSAPP, including common functions of app development
   s.source_files  = "LiaoYingKit/LYKit/*"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+   s.public_header_files = "LiaoYingKit/LYKit/*"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
