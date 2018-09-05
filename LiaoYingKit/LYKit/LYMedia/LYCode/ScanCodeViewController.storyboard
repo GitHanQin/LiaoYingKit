@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--扫一扫-->
+        <scene sceneID="VIS-Ha-GcT">
+            <objects>
+                <viewController storyboardIdentifier="ScanCodeViewController" title="扫一扫" hidesBottomBarWhenPushed="YES" id="0zC-7b-3qC" customClass="ScanCodeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="POR-IN-6CV"/>
+                        <viewControllerLayoutGuide type="bottom" id="rzm-DL-5Fw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pdd-TM-xNr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scancode_box" translatesAutoresizingMaskIntoConstraints="NO" id="Jeu-UZ-Iac">
+                                <rect key="frame" x="187.5" y="317.5" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" id="RVF-IV-nEP"/>
+                                    <constraint firstAttribute="width" secondItem="Jeu-UZ-Iac" secondAttribute="height" multiplier="6:5" id="TTt-oM-cSf"/>
+                                </constraints>
+                            </imageView>
+                            <view hidden="YES" alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEl-SI-zHb">
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKk-jN-5Q0">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="80"/>
+                                        <state key="normal" image="scancode_photo"/>
+                                        <connections>
+                                            <action selector="photoBtnAction:" destination="0zC-7b-3qC" eventType="touchUpInside" id="0ZG-tR-tzL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lg-Hd-Pt6">
+                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="80"/>
+                                        <state key="normal" image="scancode_light"/>
+                                        <state key="selected" image="scancode_light_select"/>
+                                        <connections>
+                                            <action selector="lightBtnAction:" destination="0zC-7b-3qC" eventType="touchUpInside" id="SAD-EN-owE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2lg-Hd-Pt6" firstAttribute="height" secondItem="CKk-jN-5Q0" secondAttribute="height" id="3rA-it-W3f"/>
+                                    <constraint firstItem="2lg-Hd-Pt6" firstAttribute="width" secondItem="CKk-jN-5Q0" secondAttribute="width" id="4Cg-n0-Ueb"/>
+                                    <constraint firstItem="2lg-Hd-Pt6" firstAttribute="leading" secondItem="CKk-jN-5Q0" secondAttribute="trailing" id="Eyt-Nn-NSl"/>
+                                    <constraint firstItem="2lg-Hd-Pt6" firstAttribute="top" secondItem="tEl-SI-zHb" secondAttribute="top" id="Hvu-fa-DtI"/>
+                                    <constraint firstItem="CKk-jN-5Q0" firstAttribute="top" secondItem="tEl-SI-zHb" secondAttribute="top" id="OOc-Xr-QvV"/>
+                                    <constraint firstAttribute="height" constant="80" id="PNK-OP-gjg"/>
+                                    <constraint firstItem="CKk-jN-5Q0" firstAttribute="leading" secondItem="tEl-SI-zHb" secondAttribute="leading" id="T1V-8i-tUa"/>
+                                    <constraint firstAttribute="trailing" secondItem="2lg-Hd-Pt6" secondAttribute="trailing" id="XgY-Q7-PTD"/>
+                                    <constraint firstAttribute="bottom" secondItem="CKk-jN-5Q0" secondAttribute="bottom" id="vfN-Ke-eeQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="2lg-Hd-Pt6" secondAttribute="bottom" id="xLp-x9-5N5"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="将二维码/条形码放入框内,即可自动扫描" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZC-ni-fTL">
+                                <rect key="frame" x="70.5" y="281.5" width="234" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="AfY-7E-NWs">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tEl-SI-zHb" firstAttribute="leading" secondItem="Pdd-TM-xNr" secondAttribute="leading" id="HZQ-oF-Fzl"/>
+                            <constraint firstItem="AfY-7E-NWs" firstAttribute="centerY" secondItem="Pdd-TM-xNr" secondAttribute="centerY" id="Ie5-LB-gzR"/>
+                            <constraint firstAttribute="bottom" secondItem="tEl-SI-zHb" secondAttribute="bottom" id="M8H-yb-fF8"/>
+                            <constraint firstItem="Jeu-UZ-Iac" firstAttribute="centerY" secondItem="Pdd-TM-xNr" secondAttribute="centerY" constant="-16" id="ND4-wf-lhM"/>
+                            <constraint firstItem="Jeu-UZ-Iac" firstAttribute="top" secondItem="2ZC-ni-fTL" secondAttribute="bottom" constant="20" id="efo-sm-ZsZ"/>
+                            <constraint firstItem="2ZC-ni-fTL" firstAttribute="centerX" secondItem="Pdd-TM-xNr" secondAttribute="centerX" id="jd6-5v-DAT"/>
+                            <constraint firstItem="AfY-7E-NWs" firstAttribute="centerX" secondItem="Pdd-TM-xNr" secondAttribute="centerX" id="tNB-wG-GYV"/>
+                            <constraint firstItem="Jeu-UZ-Iac" firstAttribute="centerX" secondItem="Pdd-TM-xNr" secondAttribute="centerX" id="uAe-AY-3DH"/>
+                            <constraint firstAttribute="trailing" secondItem="tEl-SI-zHb" secondAttribute="trailing" id="ypQ-AG-zsJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="_boxLayoutConstraint" destination="RVF-IV-nEP" id="kH6-NG-1Cz"/>
+                        <outlet property="_contentLabel" destination="2ZC-ni-fTL" id="Ui1-ya-tiJ"/>
+                        <outlet property="_loaddingIndicatorView" destination="AfY-7E-NWs" id="3bg-FX-YMi"/>
+                        <outlet property="_scanPane" destination="Jeu-UZ-Iac" id="rSP-QO-Gc6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QDJ-cp-Ffd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-711" y="5282"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="scancode_box" width="260" height="260"/>
+        <image name="scancode_light" width="60" height="72"/>
+        <image name="scancode_light_select" width="60" height="72"/>
+        <image name="scancode_photo" width="60" height="72"/>
+    </resources>
+</document>

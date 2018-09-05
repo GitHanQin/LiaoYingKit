@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A9B4B1A336F0D1791B38AA /* libPods-LiaoYingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EE798815935C4A197A607 /* libPods-LiaoYingKit.a */; };
 		A1F8BAF8213F95440093DC79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BAF7213F95440093DC79 /* AppDelegate.m */; };
 		A1F8BAFB213F95440093DC79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BAFA213F95440093DC79 /* ViewController.m */; };
 		A1F8BAFE213F95440093DC79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BAFC213F95440093DC79 /* Main.storyboard */; };
@@ -15,6 +16,67 @@
 		A1F8BB06213F95450093DC79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB05213F95450093DC79 /* main.m */; };
 		A1F8BB10213F95450093DC79 /* LiaoYingKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB0F213F95450093DC79 /* LiaoYingKitTests.m */; };
 		A1F8BB1B213F95450093DC79 /* LiaoYingKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB1A213F95450093DC79 /* LiaoYingKitUITests.m */; };
+		A1F8BBA9213F96130093DC79 /* YLDataConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB2B213F96130093DC79 /* YLDataConfiguration.m */; };
+		A1F8BBAA213F96130093DC79 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB2F213F96130093DC79 /* city.json */; };
+		A1F8BBAB213F96130093DC79 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB30213F96130093DC79 /* area.json */; };
+		A1F8BBAC213F96130093DC79 /* province.json in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB31213F96130093DC79 /* province.json */; };
+		A1F8BBAD213F96130093DC79 /* YLAwesomeSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB32213F96130093DC79 /* YLAwesomeSheetController.m */; };
+		A1F8BBAE213F96130093DC79 /* YLAwesomeData.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB34213F96130093DC79 /* YLAwesomeData.m */; };
+		A1F8BBAF213F96130093DC79 /* LYView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB35213F96130093DC79 /* LYView.m */; };
+		A1F8BBB0213F96130093DC79 /* LYBottomLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB37213F96130093DC79 /* LYBottomLoading.m */; };
+		A1F8BBB1213F96130093DC79 /* LYMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB3B213F96130093DC79 /* LYMedia.m */; };
+		A1F8BBB2213F96130093DC79 /* MOKORecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB3E213F96130093DC79 /* MOKORecordToastContentView.m */; };
+		A1F8BBB3213F96130093DC79 /* ic_record_ripple@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB42213F96130093DC79 /* ic_record_ripple@3x.png */; };
+		A1F8BBB4213F96130093DC79 /* MOKORecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB43213F96130093DC79 /* MOKORecordView.m */; };
+		A1F8BBB5213F96130093DC79 /* MOKORecordShowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB44213F96130093DC79 /* MOKORecordShowManager.m */; };
+		A1F8BBB6213F96130093DC79 /* ic_record_ripple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB45213F96130093DC79 /* ic_record_ripple@2x.png */; };
+		A1F8BBB7213F96130093DC79 /* MOKORecorderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB46213F96130093DC79 /* MOKORecorderTool.m */; };
+		A1F8BBB8213F96130093DC79 /* ic_record_too_short@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB47213F96130093DC79 /* ic_record_too_short@2x.png */; };
+		A1F8BBB9213F96130093DC79 /* recorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB49213F96130093DC79 /* recorderView.m */; };
+		A1F8BBBA213F96130093DC79 /* ic_record_too_short@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB4A213F96130093DC79 /* ic_record_too_short@3x.png */; };
+		A1F8BBBB213F96130093DC79 /* MOKORecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB4B213F96130093DC79 /* MOKORecordPowerAnimationView.m */; };
+		A1F8BBBC213F96130093DC79 /* MOKORecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB4C213F96130093DC79 /* MOKORecordButton.m */; };
+		A1F8BBBD213F96130093DC79 /* ic_release_to_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB4D213F96130093DC79 /* ic_release_to_cancel@3x.png */; };
+		A1F8BBBE213F96130093DC79 /* ic_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB4E213F96130093DC79 /* ic_record@2x.png */; };
+		A1F8BBBF213F96130093DC79 /* ic_record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB52213F96130093DC79 /* ic_record@3x.png */; };
+		A1F8BBC0213F96130093DC79 /* ic_release_to_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB53213F96130093DC79 /* ic_release_to_cancel@2x.png */; };
+		A1F8BBC1213F96130093DC79 /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB56213F96130093DC79 /* UIView+Geometry.m */; };
+		A1F8BBC2213F96130093DC79 /* PGGImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB58213F96130093DC79 /* PGGImage.xcassets */; };
+		A1F8BBC3213F96130093DC79 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB59213F96130093DC79 /* UIImage+Category.m */; };
+		A1F8BBC4213F96130093DC79 /* PGG_PlayAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB5B213F96130093DC79 /* PGG_PlayAudioController.m */; };
+		A1F8BBC5213F96130093DC79 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB5D213F96130093DC79 /* Utility.m */; };
+		A1F8BBC6213F96130093DC79 /* PGG_BeautyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB5E213F96130093DC79 /* PGG_BeautyViewController.m */; };
+		A1F8BBC7213F96130093DC79 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB60213F96130093DC79 /* NSString+Category.m */; };
+		A1F8BBC8213F96130093DC79 /* PGG_AudioUtillty.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB64213F96130093DC79 /* PGG_AudioUtillty.m */; };
+		A1F8BBC9213F96130093DC79 /* scancode.caf in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB67213F96130093DC79 /* scancode.caf */; };
+		A1F8BBCA213F96130093DC79 /* ScanCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB68213F96130093DC79 /* ScanCodeViewController.storyboard */; };
+		A1F8BBCB213F96130093DC79 /* LYCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB6C213F96130093DC79 /* LYCode.m */; };
+		A1F8BBCC213F96130093DC79 /* NSString+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB6D213F96130093DC79 /* NSString+QRCode.m */; };
+		A1F8BBCD213F96130093DC79 /* ScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB6E213F96130093DC79 /* ScanCodeViewController.m */; };
+		A1F8BBCE213F96130093DC79 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB6F213F96130093DC79 /* UIImage+Extend.m */; };
+		A1F8BBCF213F96130093DC79 /* LYSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB73213F96130093DC79 /* LYSocketManager.m */; };
+		A1F8BBD0213F96130093DC79 /* LYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB7A213F96130093DC79 /* LYNetworkManager.m */; };
+		A1F8BBD1213F96130093DC79 /* LYNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB7D213F96130093DC79 /* LYNetworkModel.m */; };
+		A1F8BBD2213F96130093DC79 /* LYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB7F213F96130093DC79 /* LYFileManager.m */; };
+		A1F8BBD3213F96130093DC79 /* NSDate+RYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB84213F96130093DC79 /* NSDate+RYExtension.m */; };
+		A1F8BBD4213F96130093DC79 /* RYDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB85213F96130093DC79 /* RYDatePicker.m */; };
+		A1F8BBD5213F96130093DC79 /* LYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB88213F96130093DC79 /* LYTools.m */; };
+		A1F8BBD6213F96130093DC79 /* 版本说明 in Resources */ = {isa = PBXBuildFile; fileRef = A1F8BB89213F96130093DC79 /* 版本说明 */; };
+		A1F8BBD7213F96130093DC79 /* NSObject+LYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB8C213F96130093DC79 /* NSObject+LYObject.m */; };
+		A1F8BBD8213F96130093DC79 /* NSString+LYString.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB8D213F96130093DC79 /* NSString+LYString.m */; };
+		A1F8BBD9213F96130093DC79 /* UIView+LYView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB8F213F96130093DC79 /* UIView+LYView.m */; };
+		A1F8BBDA213F96130093DC79 /* UIDevice+LYDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB91213F96130093DC79 /* UIDevice+LYDevice.m */; };
+		A1F8BBDB213F96130093DC79 /* UINavigationController+LYNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB96213F96130093DC79 /* UINavigationController+LYNavgationController.m */; };
+		A1F8BBDC213F96130093DC79 /* NSObject+LYRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB9A213F96130093DC79 /* NSObject+LYRuntime.m */; };
+		A1F8BBDD213F96130093DC79 /* UIButton+LYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB9C213F96130093DC79 /* UIButton+LYButton.m */; };
+		A1F8BBDE213F96130093DC79 /* UIViewController+LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BB9E213F96130093DC79 /* UIViewController+LYViewController.m */; };
+		A1F8BBDF213F96130093DC79 /* NSTimer+LYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BBA0213F96130093DC79 /* NSTimer+LYTimer.m */; };
+		A1F8BBE0213F96130093DC79 /* MBProgressHUD+LYMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BBA2213F96130093DC79 /* MBProgressHUD+LYMBProgressHUD.m */; };
+		A1F8BBE1213F96130093DC79 /* UIColor+LYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BBA4213F96130093DC79 /* UIColor+LYColor.m */; };
+		A1F8BBE2213F96130093DC79 /* UILabel+LYLable.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BBA5213F96130093DC79 /* UILabel+LYLable.m */; };
+		A1F8BBE3213F96130093DC79 /* UITabBarController+LYUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BBA6213F96130093DC79 /* UITabBarController+LYUITabBarController.m */; };
+		A1F8BBE4213F96130093DC79 /* NSDate+LYDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BBA7213F96130093DC79 /* NSDate+LYDate.m */; };
+		A1F8BBE5213F96130093DC79 /* UIImage+LYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8BBA8213F96130093DC79 /* UIImage+LYImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +97,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203EE798815935C4A197A607 /* libPods-LiaoYingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiaoYingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3853B6CB797603FAE8D62818 /* Pods-LiaoYingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiaoYingKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiaoYingKit/Pods-LiaoYingKit.debug.xcconfig"; sourceTree = "<group>"; };
+		80EF12184C68B38C2FE60B56 /* Pods-LiaoYingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiaoYingKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiaoYingKit/Pods-LiaoYingKit.release.xcconfig"; sourceTree = "<group>"; };
 		A1F8BAF3213F95440093DC79 /* LiaoYingKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiaoYingKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F8BAF6213F95440093DC79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1F8BAF7213F95440093DC79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +116,120 @@
 		A1F8BB16213F95450093DC79 /* LiaoYingKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiaoYingKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F8BB1A213F95450093DC79 /* LiaoYingKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiaoYingKitUITests.m; sourceTree = "<group>"; };
 		A1F8BB1C213F95450093DC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F8BB2B213F96130093DC79 /* YLDataConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDataConfiguration.m; sourceTree = "<group>"; };
+		A1F8BB2C213F96130093DC79 /* YLAwesomeSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAwesomeSheetController.h; sourceTree = "<group>"; };
+		A1F8BB2D213F96130093DC79 /* YLAwesomeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAwesomeData.h; sourceTree = "<group>"; };
+		A1F8BB2E213F96130093DC79 /* YLAwesomeDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAwesomeDataDelegate.h; sourceTree = "<group>"; };
+		A1F8BB2F213F96130093DC79 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		A1F8BB30213F96130093DC79 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		A1F8BB31213F96130093DC79 /* province.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province.json; sourceTree = "<group>"; };
+		A1F8BB32213F96130093DC79 /* YLAwesomeSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAwesomeSheetController.m; sourceTree = "<group>"; };
+		A1F8BB33213F96130093DC79 /* YLDataConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDataConfiguration.h; sourceTree = "<group>"; };
+		A1F8BB34213F96130093DC79 /* YLAwesomeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAwesomeData.m; sourceTree = "<group>"; };
+		A1F8BB35213F96130093DC79 /* LYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYView.m; sourceTree = "<group>"; };
+		A1F8BB37213F96130093DC79 /* LYBottomLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBottomLoading.m; sourceTree = "<group>"; };
+		A1F8BB38213F96130093DC79 /* LYBottomLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBottomLoading.h; sourceTree = "<group>"; };
+		A1F8BB39213F96130093DC79 /* LYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYView.h; sourceTree = "<group>"; };
+		A1F8BB3B213F96130093DC79 /* LYMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMedia.m; sourceTree = "<group>"; };
+		A1F8BB3D213F96130093DC79 /* recorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recorderView.h; sourceTree = "<group>"; };
+		A1F8BB3E213F96130093DC79 /* MOKORecordToastContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOKORecordToastContentView.m; sourceTree = "<group>"; };
+		A1F8BB3F213F96130093DC79 /* MOKORecordHeaderDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKORecordHeaderDefine.h; sourceTree = "<group>"; };
+		A1F8BB40213F96130093DC79 /* MOKORecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKORecordButton.h; sourceTree = "<group>"; };
+		A1F8BB41213F96130093DC79 /* MOKORecordPowerAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKORecordPowerAnimationView.h; sourceTree = "<group>"; };
+		A1F8BB42213F96130093DC79 /* ic_record_ripple@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record_ripple@3x.png"; sourceTree = "<group>"; };
+		A1F8BB43213F96130093DC79 /* MOKORecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOKORecordView.m; sourceTree = "<group>"; };
+		A1F8BB44213F96130093DC79 /* MOKORecordShowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOKORecordShowManager.m; sourceTree = "<group>"; };
+		A1F8BB45213F96130093DC79 /* ic_record_ripple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record_ripple@2x.png"; sourceTree = "<group>"; };
+		A1F8BB46213F96130093DC79 /* MOKORecorderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOKORecorderTool.m; sourceTree = "<group>"; };
+		A1F8BB47213F96130093DC79 /* ic_record_too_short@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record_too_short@2x.png"; sourceTree = "<group>"; };
+		A1F8BB48213F96130093DC79 /* MOKORecordToastContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKORecordToastContentView.h; sourceTree = "<group>"; };
+		A1F8BB49213F96130093DC79 /* recorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recorderView.m; sourceTree = "<group>"; };
+		A1F8BB4A213F96130093DC79 /* ic_record_too_short@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record_too_short@3x.png"; sourceTree = "<group>"; };
+		A1F8BB4B213F96130093DC79 /* MOKORecordPowerAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOKORecordPowerAnimationView.m; sourceTree = "<group>"; };
+		A1F8BB4C213F96130093DC79 /* MOKORecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOKORecordButton.m; sourceTree = "<group>"; };
+		A1F8BB4D213F96130093DC79 /* ic_release_to_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_release_to_cancel@3x.png"; sourceTree = "<group>"; };
+		A1F8BB4E213F96130093DC79 /* ic_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record@2x.png"; sourceTree = "<group>"; };
+		A1F8BB4F213F96130093DC79 /* MOKORecordShowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKORecordShowManager.h; sourceTree = "<group>"; };
+		A1F8BB50213F96130093DC79 /* MOKORecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKORecordView.h; sourceTree = "<group>"; };
+		A1F8BB51213F96130093DC79 /* MOKORecorderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKORecorderTool.h; sourceTree = "<group>"; };
+		A1F8BB52213F96130093DC79 /* ic_record@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_record@3x.png"; sourceTree = "<group>"; };
+		A1F8BB53213F96130093DC79 /* ic_release_to_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_release_to_cancel@2x.png"; sourceTree = "<group>"; };
+		A1F8BB55213F96130093DC79 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		A1F8BB56213F96130093DC79 /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
+		A1F8BB57213F96130093DC79 /* PGG_BeautyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGG_BeautyViewController.h; sourceTree = "<group>"; };
+		A1F8BB58213F96130093DC79 /* PGGImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PGGImage.xcassets; sourceTree = "<group>"; };
+		A1F8BB59213F96130093DC79 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		A1F8BB5A213F96130093DC79 /* PGG_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGG_Header.h; sourceTree = "<group>"; };
+		A1F8BB5B213F96130093DC79 /* PGG_PlayAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGG_PlayAudioController.m; sourceTree = "<group>"; };
+		A1F8BB5C213F96130093DC79 /* PGG_AudioUtillty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGG_AudioUtillty.h; sourceTree = "<group>"; };
+		A1F8BB5D213F96130093DC79 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		A1F8BB5E213F96130093DC79 /* PGG_BeautyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGG_BeautyViewController.m; sourceTree = "<group>"; };
+		A1F8BB5F213F96130093DC79 /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		A1F8BB60213F96130093DC79 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		A1F8BB61213F96130093DC79 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		A1F8BB62213F96130093DC79 /* PGG_PlayAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGG_PlayAudioController.h; sourceTree = "<group>"; };
+		A1F8BB63213F96130093DC79 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		A1F8BB64213F96130093DC79 /* PGG_AudioUtillty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGG_AudioUtillty.m; sourceTree = "<group>"; };
+		A1F8BB65213F96130093DC79 /* LYMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMedia.h; sourceTree = "<group>"; };
+		A1F8BB67213F96130093DC79 /* scancode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = scancode.caf; sourceTree = "<group>"; };
+		A1F8BB68213F96130093DC79 /* ScanCodeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScanCodeViewController.storyboard; sourceTree = "<group>"; };
+		A1F8BB69213F96130093DC79 /* NSString+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QRCode.h"; sourceTree = "<group>"; };
+		A1F8BB6A213F96130093DC79 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		A1F8BB6B213F96130093DC79 /* ScanCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeViewController.h; sourceTree = "<group>"; };
+		A1F8BB6C213F96130093DC79 /* LYCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCode.m; sourceTree = "<group>"; };
+		A1F8BB6D213F96130093DC79 /* NSString+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QRCode.m"; sourceTree = "<group>"; };
+		A1F8BB6E213F96130093DC79 /* ScanCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeViewController.m; sourceTree = "<group>"; };
+		A1F8BB6F213F96130093DC79 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		A1F8BB70213F96130093DC79 /* LYCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCode.h; sourceTree = "<group>"; };
+		A1F8BB72213F96130093DC79 /* LYSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSocketManager.h; sourceTree = "<group>"; };
+		A1F8BB73213F96130093DC79 /* LYSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSocketManager.m; sourceTree = "<group>"; };
+		A1F8BB74213F96130093DC79 /* LYKit.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYKit.pch; sourceTree = "<group>"; };
+		A1F8BB76213F96130093DC79 /* Define_Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define_Device.h; sourceTree = "<group>"; };
+		A1F8BB77213F96130093DC79 /* LY_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LY_Define.h; sourceTree = "<group>"; };
+		A1F8BB78213F96130093DC79 /* Define_UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define_UI.h; sourceTree = "<group>"; };
+		A1F8BB7A213F96130093DC79 /* LYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetworkManager.m; sourceTree = "<group>"; };
+		A1F8BB7B213F96130093DC79 /* LYNetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetworkModel.h; sourceTree = "<group>"; };
+		A1F8BB7C213F96130093DC79 /* LYNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNetworkManager.h; sourceTree = "<group>"; };
+		A1F8BB7D213F96130093DC79 /* LYNetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNetworkModel.m; sourceTree = "<group>"; };
+		A1F8BB7F213F96130093DC79 /* LYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFileManager.m; sourceTree = "<group>"; };
+		A1F8BB80213F96130093DC79 /* LYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFileManager.h; sourceTree = "<group>"; };
+		A1F8BB82213F96130093DC79 /* LYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTools.h; sourceTree = "<group>"; };
+		A1F8BB84213F96130093DC79 /* NSDate+RYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RYExtension.m"; sourceTree = "<group>"; };
+		A1F8BB85213F96130093DC79 /* RYDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYDatePicker.m; sourceTree = "<group>"; };
+		A1F8BB86213F96130093DC79 /* NSDate+RYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RYExtension.h"; sourceTree = "<group>"; };
+		A1F8BB87213F96130093DC79 /* RYDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYDatePicker.h; sourceTree = "<group>"; };
+		A1F8BB88213F96130093DC79 /* LYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTools.m; sourceTree = "<group>"; };
+		A1F8BB89213F96130093DC79 /* 版本说明 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "版本说明"; sourceTree = "<group>"; };
+		A1F8BB8B213F96130093DC79 /* UIViewController+LYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LYViewController.h"; sourceTree = "<group>"; };
+		A1F8BB8C213F96130093DC79 /* NSObject+LYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYObject.m"; sourceTree = "<group>"; };
+		A1F8BB8D213F96130093DC79 /* NSString+LYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYString.m"; sourceTree = "<group>"; };
+		A1F8BB8E213F96130093DC79 /* UIButton+LYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LYButton.h"; sourceTree = "<group>"; };
+		A1F8BB8F213F96130093DC79 /* UIView+LYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYView.m"; sourceTree = "<group>"; };
+		A1F8BB90213F96130093DC79 /* NSObject+LYRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYRuntime.h"; sourceTree = "<group>"; };
+		A1F8BB91213F96130093DC79 /* UIDevice+LYDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LYDevice.m"; sourceTree = "<group>"; };
+		A1F8BB92213F96130093DC79 /* NSTimer+LYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LYTimer.h"; sourceTree = "<group>"; };
+		A1F8BB93213F96130093DC79 /* UILabel+LYLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LYLable.h"; sourceTree = "<group>"; };
+		A1F8BB94213F96130093DC79 /* UITabBarController+LYUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+LYUITabBarController.h"; sourceTree = "<group>"; };
+		A1F8BB95213F96130093DC79 /* UIColor+LYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LYColor.h"; sourceTree = "<group>"; };
+		A1F8BB96213F96130093DC79 /* UINavigationController+LYNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LYNavgationController.m"; sourceTree = "<group>"; };
+		A1F8BB97213F96130093DC79 /* MBProgressHUD+LYMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYMBProgressHUD.h"; sourceTree = "<group>"; };
+		A1F8BB98213F96130093DC79 /* UIImage+LYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LYImage.h"; sourceTree = "<group>"; };
+		A1F8BB99213F96130093DC79 /* NSDate+LYDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LYDate.h"; sourceTree = "<group>"; };
+		A1F8BB9A213F96130093DC79 /* NSObject+LYRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYRuntime.m"; sourceTree = "<group>"; };
+		A1F8BB9B213F96130093DC79 /* UIView+LYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYView.h"; sourceTree = "<group>"; };
+		A1F8BB9C213F96130093DC79 /* UIButton+LYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LYButton.m"; sourceTree = "<group>"; };
+		A1F8BB9D213F96130093DC79 /* NSString+LYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYString.h"; sourceTree = "<group>"; };
+		A1F8BB9E213F96130093DC79 /* UIViewController+LYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LYViewController.m"; sourceTree = "<group>"; };
+		A1F8BB9F213F96130093DC79 /* NSObject+LYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYObject.h"; sourceTree = "<group>"; };
+		A1F8BBA0213F96130093DC79 /* NSTimer+LYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LYTimer.m"; sourceTree = "<group>"; };
+		A1F8BBA1213F96130093DC79 /* UIDevice+LYDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LYDevice.h"; sourceTree = "<group>"; };
+		A1F8BBA2213F96130093DC79 /* MBProgressHUD+LYMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYMBProgressHUD.m"; sourceTree = "<group>"; };
+		A1F8BBA3213F96130093DC79 /* UINavigationController+LYNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LYNavgationController.h"; sourceTree = "<group>"; };
+		A1F8BBA4213F96130093DC79 /* UIColor+LYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LYColor.m"; sourceTree = "<group>"; };
+		A1F8BBA5213F96130093DC79 /* UILabel+LYLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LYLable.m"; sourceTree = "<group>"; };
+		A1F8BBA6213F96130093DC79 /* UITabBarController+LYUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+LYUITabBarController.m"; sourceTree = "<group>"; };
+		A1F8BBA7213F96130093DC79 /* NSDate+LYDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LYDate.m"; sourceTree = "<group>"; };
+		A1F8BBA8213F96130093DC79 /* UIImage+LYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LYImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A9B4B1A336F0D1791B38AA /* libPods-LiaoYingKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +258,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		508BE6624293C80442581886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3853B6CB797603FAE8D62818 /* Pods-LiaoYingKit.debug.xcconfig */,
+				80EF12184C68B38C2FE60B56 /* Pods-LiaoYingKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1F8BAEA213F95440093DC79 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +274,8 @@
 				A1F8BB0E213F95450093DC79 /* LiaoYingKitTests */,
 				A1F8BB19213F95450093DC79 /* LiaoYingKitUITests */,
 				A1F8BAF4213F95440093DC79 /* Products */,
+				508BE6624293C80442581886 /* Pods */,
+				CEC1E3EC0DB0D5389F3337E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +292,7 @@
 		A1F8BAF5213F95440093DC79 /* LiaoYingKit */ = {
 			isa = PBXGroup;
 			children = (
+				A1F8BB28213F96130093DC79 /* LYKit */,
 				A1F8BAF6213F95440093DC79 /* AppDelegate.h */,
 				A1F8BAF7213F95440093DC79 /* AppDelegate.m */,
 				A1F8BAF9213F95440093DC79 /* ViewController.h */,
@@ -132,6 +324,247 @@
 			path = LiaoYingKitUITests;
 			sourceTree = "<group>";
 		};
+		A1F8BB28213F96130093DC79 /* LYKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB29213F96130093DC79 /* LYView */,
+				A1F8BB3A213F96130093DC79 /* LYMedia */,
+				A1F8BB71213F96130093DC79 /* LYSocket */,
+				A1F8BB74213F96130093DC79 /* LYKit.pch */,
+				A1F8BB75213F96130093DC79 /* LYDefine */,
+				A1F8BB79213F96130093DC79 /* LYNetwork */,
+				A1F8BB7E213F96130093DC79 /* LYFileManager */,
+				A1F8BB81213F96130093DC79 /* LYTools */,
+				A1F8BB89213F96130093DC79 /* 版本说明 */,
+				A1F8BB8A213F96130093DC79 /* LYCategory */,
+			);
+			path = LYKit;
+			sourceTree = "<group>";
+		};
+		A1F8BB29213F96130093DC79 /* LYView */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB2A213F96130093DC79 /* YLAwesomePicker */,
+				A1F8BB35213F96130093DC79 /* LYView.m */,
+				A1F8BB36213F96130093DC79 /* LYBottomLoading */,
+				A1F8BB39213F96130093DC79 /* LYView.h */,
+			);
+			path = LYView;
+			sourceTree = "<group>";
+		};
+		A1F8BB2A213F96130093DC79 /* YLAwesomePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB2B213F96130093DC79 /* YLDataConfiguration.m */,
+				A1F8BB2C213F96130093DC79 /* YLAwesomeSheetController.h */,
+				A1F8BB2D213F96130093DC79 /* YLAwesomeData.h */,
+				A1F8BB2E213F96130093DC79 /* YLAwesomeDataDelegate.h */,
+				A1F8BB2F213F96130093DC79 /* city.json */,
+				A1F8BB30213F96130093DC79 /* area.json */,
+				A1F8BB31213F96130093DC79 /* province.json */,
+				A1F8BB32213F96130093DC79 /* YLAwesomeSheetController.m */,
+				A1F8BB33213F96130093DC79 /* YLDataConfiguration.h */,
+				A1F8BB34213F96130093DC79 /* YLAwesomeData.m */,
+			);
+			path = YLAwesomePicker;
+			sourceTree = "<group>";
+		};
+		A1F8BB36213F96130093DC79 /* LYBottomLoading */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB37213F96130093DC79 /* LYBottomLoading.m */,
+				A1F8BB38213F96130093DC79 /* LYBottomLoading.h */,
+			);
+			path = LYBottomLoading;
+			sourceTree = "<group>";
+		};
+		A1F8BB3A213F96130093DC79 /* LYMedia */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB3B213F96130093DC79 /* LYMedia.m */,
+				A1F8BB3C213F96130093DC79 /* RecordKit */,
+				A1F8BB54213F96130093DC79 /* 录音 */,
+				A1F8BB65213F96130093DC79 /* LYMedia.h */,
+				A1F8BB66213F96130093DC79 /* LYCode */,
+			);
+			path = LYMedia;
+			sourceTree = "<group>";
+		};
+		A1F8BB3C213F96130093DC79 /* RecordKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB3D213F96130093DC79 /* recorderView.h */,
+				A1F8BB3E213F96130093DC79 /* MOKORecordToastContentView.m */,
+				A1F8BB3F213F96130093DC79 /* MOKORecordHeaderDefine.h */,
+				A1F8BB40213F96130093DC79 /* MOKORecordButton.h */,
+				A1F8BB41213F96130093DC79 /* MOKORecordPowerAnimationView.h */,
+				A1F8BB42213F96130093DC79 /* ic_record_ripple@3x.png */,
+				A1F8BB43213F96130093DC79 /* MOKORecordView.m */,
+				A1F8BB44213F96130093DC79 /* MOKORecordShowManager.m */,
+				A1F8BB45213F96130093DC79 /* ic_record_ripple@2x.png */,
+				A1F8BB46213F96130093DC79 /* MOKORecorderTool.m */,
+				A1F8BB47213F96130093DC79 /* ic_record_too_short@2x.png */,
+				A1F8BB48213F96130093DC79 /* MOKORecordToastContentView.h */,
+				A1F8BB49213F96130093DC79 /* recorderView.m */,
+				A1F8BB4A213F96130093DC79 /* ic_record_too_short@3x.png */,
+				A1F8BB4B213F96130093DC79 /* MOKORecordPowerAnimationView.m */,
+				A1F8BB4C213F96130093DC79 /* MOKORecordButton.m */,
+				A1F8BB4D213F96130093DC79 /* ic_release_to_cancel@3x.png */,
+				A1F8BB4E213F96130093DC79 /* ic_record@2x.png */,
+				A1F8BB4F213F96130093DC79 /* MOKORecordShowManager.h */,
+				A1F8BB50213F96130093DC79 /* MOKORecordView.h */,
+				A1F8BB51213F96130093DC79 /* MOKORecorderTool.h */,
+				A1F8BB52213F96130093DC79 /* ic_record@3x.png */,
+				A1F8BB53213F96130093DC79 /* ic_release_to_cancel@2x.png */,
+			);
+			path = RecordKit;
+			sourceTree = "<group>";
+		};
+		A1F8BB54213F96130093DC79 /* 录音 */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB55213F96130093DC79 /* NSString+Category.h */,
+				A1F8BB56213F96130093DC79 /* UIView+Geometry.m */,
+				A1F8BB57213F96130093DC79 /* PGG_BeautyViewController.h */,
+				A1F8BB58213F96130093DC79 /* PGGImage.xcassets */,
+				A1F8BB59213F96130093DC79 /* UIImage+Category.m */,
+				A1F8BB5A213F96130093DC79 /* PGG_Header.h */,
+				A1F8BB5B213F96130093DC79 /* PGG_PlayAudioController.m */,
+				A1F8BB5C213F96130093DC79 /* PGG_AudioUtillty.h */,
+				A1F8BB5D213F96130093DC79 /* Utility.m */,
+				A1F8BB5E213F96130093DC79 /* PGG_BeautyViewController.m */,
+				A1F8BB5F213F96130093DC79 /* UIView+Geometry.h */,
+				A1F8BB60213F96130093DC79 /* NSString+Category.m */,
+				A1F8BB61213F96130093DC79 /* UIImage+Category.h */,
+				A1F8BB62213F96130093DC79 /* PGG_PlayAudioController.h */,
+				A1F8BB63213F96130093DC79 /* Utility.h */,
+				A1F8BB64213F96130093DC79 /* PGG_AudioUtillty.m */,
+			);
+			path = "录音";
+			sourceTree = "<group>";
+		};
+		A1F8BB66213F96130093DC79 /* LYCode */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB67213F96130093DC79 /* scancode.caf */,
+				A1F8BB68213F96130093DC79 /* ScanCodeViewController.storyboard */,
+				A1F8BB69213F96130093DC79 /* NSString+QRCode.h */,
+				A1F8BB6A213F96130093DC79 /* UIImage+Extend.h */,
+				A1F8BB6B213F96130093DC79 /* ScanCodeViewController.h */,
+				A1F8BB6C213F96130093DC79 /* LYCode.m */,
+				A1F8BB6D213F96130093DC79 /* NSString+QRCode.m */,
+				A1F8BB6E213F96130093DC79 /* ScanCodeViewController.m */,
+				A1F8BB6F213F96130093DC79 /* UIImage+Extend.m */,
+				A1F8BB70213F96130093DC79 /* LYCode.h */,
+			);
+			path = LYCode;
+			sourceTree = "<group>";
+		};
+		A1F8BB71213F96130093DC79 /* LYSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB72213F96130093DC79 /* LYSocketManager.h */,
+				A1F8BB73213F96130093DC79 /* LYSocketManager.m */,
+			);
+			path = LYSocket;
+			sourceTree = "<group>";
+		};
+		A1F8BB75213F96130093DC79 /* LYDefine */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB76213F96130093DC79 /* Define_Device.h */,
+				A1F8BB77213F96130093DC79 /* LY_Define.h */,
+				A1F8BB78213F96130093DC79 /* Define_UI.h */,
+			);
+			path = LYDefine;
+			sourceTree = "<group>";
+		};
+		A1F8BB79213F96130093DC79 /* LYNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB7A213F96130093DC79 /* LYNetworkManager.m */,
+				A1F8BB7B213F96130093DC79 /* LYNetworkModel.h */,
+				A1F8BB7C213F96130093DC79 /* LYNetworkManager.h */,
+				A1F8BB7D213F96130093DC79 /* LYNetworkModel.m */,
+			);
+			path = LYNetwork;
+			sourceTree = "<group>";
+		};
+		A1F8BB7E213F96130093DC79 /* LYFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB7F213F96130093DC79 /* LYFileManager.m */,
+				A1F8BB80213F96130093DC79 /* LYFileManager.h */,
+			);
+			path = LYFileManager;
+			sourceTree = "<group>";
+		};
+		A1F8BB81213F96130093DC79 /* LYTools */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB82213F96130093DC79 /* LYTools.h */,
+				A1F8BB83213F96130093DC79 /* RYDatePicker */,
+				A1F8BB88213F96130093DC79 /* LYTools.m */,
+			);
+			path = LYTools;
+			sourceTree = "<group>";
+		};
+		A1F8BB83213F96130093DC79 /* RYDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB84213F96130093DC79 /* NSDate+RYExtension.m */,
+				A1F8BB85213F96130093DC79 /* RYDatePicker.m */,
+				A1F8BB86213F96130093DC79 /* NSDate+RYExtension.h */,
+				A1F8BB87213F96130093DC79 /* RYDatePicker.h */,
+			);
+			path = RYDatePicker;
+			sourceTree = "<group>";
+		};
+		A1F8BB8A213F96130093DC79 /* LYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8BB8B213F96130093DC79 /* UIViewController+LYViewController.h */,
+				A1F8BB8C213F96130093DC79 /* NSObject+LYObject.m */,
+				A1F8BB8D213F96130093DC79 /* NSString+LYString.m */,
+				A1F8BB8E213F96130093DC79 /* UIButton+LYButton.h */,
+				A1F8BB8F213F96130093DC79 /* UIView+LYView.m */,
+				A1F8BB90213F96130093DC79 /* NSObject+LYRuntime.h */,
+				A1F8BB91213F96130093DC79 /* UIDevice+LYDevice.m */,
+				A1F8BB92213F96130093DC79 /* NSTimer+LYTimer.h */,
+				A1F8BB93213F96130093DC79 /* UILabel+LYLable.h */,
+				A1F8BB94213F96130093DC79 /* UITabBarController+LYUITabBarController.h */,
+				A1F8BB95213F96130093DC79 /* UIColor+LYColor.h */,
+				A1F8BB96213F96130093DC79 /* UINavigationController+LYNavgationController.m */,
+				A1F8BB97213F96130093DC79 /* MBProgressHUD+LYMBProgressHUD.h */,
+				A1F8BB98213F96130093DC79 /* UIImage+LYImage.h */,
+				A1F8BB99213F96130093DC79 /* NSDate+LYDate.h */,
+				A1F8BB9A213F96130093DC79 /* NSObject+LYRuntime.m */,
+				A1F8BB9B213F96130093DC79 /* UIView+LYView.h */,
+				A1F8BB9C213F96130093DC79 /* UIButton+LYButton.m */,
+				A1F8BB9D213F96130093DC79 /* NSString+LYString.h */,
+				A1F8BB9E213F96130093DC79 /* UIViewController+LYViewController.m */,
+				A1F8BB9F213F96130093DC79 /* NSObject+LYObject.h */,
+				A1F8BBA0213F96130093DC79 /* NSTimer+LYTimer.m */,
+				A1F8BBA1213F96130093DC79 /* UIDevice+LYDevice.h */,
+				A1F8BBA2213F96130093DC79 /* MBProgressHUD+LYMBProgressHUD.m */,
+				A1F8BBA3213F96130093DC79 /* UINavigationController+LYNavgationController.h */,
+				A1F8BBA4213F96130093DC79 /* UIColor+LYColor.m */,
+				A1F8BBA5213F96130093DC79 /* UILabel+LYLable.m */,
+				A1F8BBA6213F96130093DC79 /* UITabBarController+LYUITabBarController.m */,
+				A1F8BBA7213F96130093DC79 /* NSDate+LYDate.m */,
+				A1F8BBA8213F96130093DC79 /* UIImage+LYImage.m */,
+			);
+			path = LYCategory;
+			sourceTree = "<group>";
+		};
+		CEC1E3EC0DB0D5389F3337E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				203EE798815935C4A197A607 /* libPods-LiaoYingKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +572,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F8BB1F213F95450093DC79 /* Build configuration list for PBXNativeTarget "LiaoYingKit" */;
 			buildPhases = (
+				DBE695522BA19AB601854CBD /* [CP] Check Pods Manifest.lock */,
 				A1F8BAEF213F95440093DC79 /* Sources */,
 				A1F8BAF0213F95440093DC79 /* Frameworks */,
 				A1F8BAF1213F95440093DC79 /* Resources */,
+				E135A328F71483698016F1CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,8 +671,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F8BB03213F95450093DC79 /* LaunchScreen.storyboard in Resources */,
+				A1F8BBC0213F96130093DC79 /* ic_release_to_cancel@2x.png in Resources */,
+				A1F8BBB6213F96130093DC79 /* ic_record_ripple@2x.png in Resources */,
 				A1F8BB00213F95450093DC79 /* Assets.xcassets in Resources */,
+				A1F8BBCA213F96130093DC79 /* ScanCodeViewController.storyboard in Resources */,
+				A1F8BBC9213F96130093DC79 /* scancode.caf in Resources */,
+				A1F8BBB3213F96130093DC79 /* ic_record_ripple@3x.png in Resources */,
+				A1F8BBC2213F96130093DC79 /* PGGImage.xcassets in Resources */,
+				A1F8BBBA213F96130093DC79 /* ic_record_too_short@3x.png in Resources */,
+				A1F8BBBD213F96130093DC79 /* ic_release_to_cancel@3x.png in Resources */,
+				A1F8BBAB213F96130093DC79 /* area.json in Resources */,
+				A1F8BBAA213F96130093DC79 /* city.json in Resources */,
 				A1F8BAFE213F95440093DC79 /* Main.storyboard in Resources */,
+				A1F8BBB8213F96130093DC79 /* ic_record_too_short@2x.png in Resources */,
+				A1F8BBBF213F96130093DC79 /* ic_record@3x.png in Resources */,
+				A1F8BBAC213F96130093DC79 /* province.json in Resources */,
+				A1F8BBD6213F96130093DC79 /* 版本说明 in Resources */,
+				A1F8BBBE213F96130093DC79 /* ic_record@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +707,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DBE695522BA19AB601854CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiaoYingKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E135A328F71483698016F1CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LiaoYingKit/Pods-LiaoYingKit-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FFToast/FFToast.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/WMPlayer/WMPlayer/WMPlayer.bundle",
+				"${PODS_ROOT}/XRCarouselView/XRCarouselView/XRPlaceholder.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FFToast.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WMPlayer.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XRPlaceholder.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiaoYingKit/Pods-LiaoYingKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1F8BAEF213F95440093DC79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F8BBB1213F96130093DC79 /* LYMedia.m in Sources */,
+				A1F8BBDD213F96130093DC79 /* UIButton+LYButton.m in Sources */,
+				A1F8BBD3213F96130093DC79 /* NSDate+RYExtension.m in Sources */,
+				A1F8BBCF213F96130093DC79 /* LYSocketManager.m in Sources */,
 				A1F8BAFB213F95440093DC79 /* ViewController.m in Sources */,
+				A1F8BBB4213F96130093DC79 /* MOKORecordView.m in Sources */,
+				A1F8BBB5213F96130093DC79 /* MOKORecordShowManager.m in Sources */,
+				A1F8BBE4213F96130093DC79 /* NSDate+LYDate.m in Sources */,
+				A1F8BBB7213F96130093DC79 /* MOKORecorderTool.m in Sources */,
+				A1F8BBDE213F96130093DC79 /* UIViewController+LYViewController.m in Sources */,
+				A1F8BBCC213F96130093DC79 /* NSString+QRCode.m in Sources */,
+				A1F8BBC3213F96130093DC79 /* UIImage+Category.m in Sources */,
+				A1F8BBC6213F96130093DC79 /* PGG_BeautyViewController.m in Sources */,
 				A1F8BB06213F95450093DC79 /* main.m in Sources */,
+				A1F8BBAF213F96130093DC79 /* LYView.m in Sources */,
+				A1F8BBAE213F96130093DC79 /* YLAwesomeData.m in Sources */,
+				A1F8BBB9213F96130093DC79 /* recorderView.m in Sources */,
+				A1F8BBE5213F96130093DC79 /* UIImage+LYImage.m in Sources */,
+				A1F8BBD5213F96130093DC79 /* LYTools.m in Sources */,
+				A1F8BBD7213F96130093DC79 /* NSObject+LYObject.m in Sources */,
+				A1F8BBB0213F96130093DC79 /* LYBottomLoading.m in Sources */,
+				A1F8BBD4213F96130093DC79 /* RYDatePicker.m in Sources */,
+				A1F8BBD2213F96130093DC79 /* LYFileManager.m in Sources */,
+				A1F8BBDC213F96130093DC79 /* NSObject+LYRuntime.m in Sources */,
+				A1F8BBE1213F96130093DC79 /* UIColor+LYColor.m in Sources */,
+				A1F8BBC4213F96130093DC79 /* PGG_PlayAudioController.m in Sources */,
+				A1F8BBE2213F96130093DC79 /* UILabel+LYLable.m in Sources */,
+				A1F8BBDB213F96130093DC79 /* UINavigationController+LYNavgationController.m in Sources */,
+				A1F8BBD9213F96130093DC79 /* UIView+LYView.m in Sources */,
+				A1F8BBD1213F96130093DC79 /* LYNetworkModel.m in Sources */,
+				A1F8BBDF213F96130093DC79 /* NSTimer+LYTimer.m in Sources */,
+				A1F8BBCD213F96130093DC79 /* ScanCodeViewController.m in Sources */,
+				A1F8BBE0213F96130093DC79 /* MBProgressHUD+LYMBProgressHUD.m in Sources */,
+				A1F8BBC5213F96130093DC79 /* Utility.m in Sources */,
+				A1F8BBE3213F96130093DC79 /* UITabBarController+LYUITabBarController.m in Sources */,
+				A1F8BBC1213F96130093DC79 /* UIView+Geometry.m in Sources */,
+				A1F8BBD0213F96130093DC79 /* LYNetworkManager.m in Sources */,
 				A1F8BAF8213F95440093DC79 /* AppDelegate.m in Sources */,
+				A1F8BBAD213F96130093DC79 /* YLAwesomeSheetController.m in Sources */,
+				A1F8BBBB213F96130093DC79 /* MOKORecordPowerAnimationView.m in Sources */,
+				A1F8BBCE213F96130093DC79 /* UIImage+Extend.m in Sources */,
+				A1F8BBD8213F96130093DC79 /* NSString+LYString.m in Sources */,
+				A1F8BBA9213F96130093DC79 /* YLDataConfiguration.m in Sources */,
+				A1F8BBDA213F96130093DC79 /* UIDevice+LYDevice.m in Sources */,
+				A1F8BBCB213F96130093DC79 /* LYCode.m in Sources */,
+				A1F8BBC7213F96130093DC79 /* NSString+Category.m in Sources */,
+				A1F8BBBC213F96130093DC79 /* MOKORecordButton.m in Sources */,
+				A1F8BBC8213F96130093DC79 /* PGG_AudioUtillty.m in Sources */,
+				A1F8BBB2213F96130093DC79 /* MOKORecordToastContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +976,7 @@
 		};
 		A1F8BB20213F95450093DC79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3853B6CB797603FAE8D62818 /* Pods-LiaoYingKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +994,7 @@
 		};
 		A1F8BB21213F95450093DC79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EF12184C68B38C2FE60B56 /* Pods-LiaoYingKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
